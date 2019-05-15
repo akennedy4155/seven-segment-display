@@ -27,10 +27,6 @@ class Digit extends React.Component {
       "9": ["a", "b", "c", "d", "f", "g"],
       " ": props.nullDisplay
     };
-
-    if (props.nullDisplay.length != 0) {
-      this.digits[" "] = props.nullDisplay;
-    }
   }
 
   getSegment(id) {
